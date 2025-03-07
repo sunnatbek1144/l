@@ -1,10 +1,12 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     background-color: bisque;
     width: 100%;
     min-height: 100vh;
@@ -14,8 +16,9 @@
     flex-direction: column;
     align-items: center;
 }
-.quiz-box{
-    background-color:#FFFF;
+
+.quiz-box {
+    background-color: #FFFF;
     max-width: 400px;
     width: 100%;
     min-height: 150px;
@@ -23,13 +26,81 @@
     border-radius: 8px;
     box-shadow: 0 3px 5px #ccc;
 }
-.quiz-info{
+
+.quiz-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px 25px;
 }
-.quiz-category span{
+
+.quiz-category span {
     background-color: lightblue;
+
+}
+
+.container-1 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(127, 90, 185), rgb(163, 174, 179), rgb(127, 180, 209));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: ;
+}
+
+.box {
+    background-color: #FFFF;
+    border-radius: 5px;
+    max-width: 220px;
+    width: 100%;
+    min-height: 30px;
     
+}
+.Join{
+    background-color: rgb(87, 58, 252);
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    margin-top: 7px;
+}
+.input{
+    border: none;
+    font-family: "Delius";
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+.button{
+    border: none;
+    border-radius: 4px;
+    font-family: "Delius";
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    background-color: rgb(51, 51, 124);
+    color: #FFFF;
+
+}
+.t-boss{
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFF;
+    font-style: normal;
+    font-size: medium;
+    padding: 5px 10px;
+}
+.fa-solid{
+    color: blue;
+    padding: ;
+}
+.boss{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
